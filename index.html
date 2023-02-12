@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Culturama</title>
+    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Work+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css"
+        integrity="sha512-NmLkDIU1C/C88wi324HBc+S2kLhi08PN5GDeUVVVC/BVt/9Izdsc9SVeVfA1UZbY3sHUlDSyRXhCzHfr6hmPPw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="shortcut icon" href="./src/img/Favicon2.png" type="image/x-icon">
+    <link rel="stylesheet" href="src/styles/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="menu">
+                <li class="menu__item">
+                    <h1 class="menu__titulo"></h1>
+                </li>
+                <li class="menu_item"><a href="">Computer Science</a></li>
+                <li class="menu_item"><a href="">Your Local</a></li>
+
+                <li class="menu__item menu_search">
+                    <label for="search" class="menu__label"><input type="search" class="menu__input" placeholder="what are you looking for?" id="search"></label>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <!-- Navbar ends up here -->
+
+    <!-- main content starts up here -->
+    <main class="principal">
+        <section class="banner">
+            <img src="./src/img/banner1.png" alt="">
+            <img src="./src/img/banner2.png" alt="">
+            <img src="./src/img/banner3.png" alt="">
+            <img src="./src/img/banner4.png" alt="">
+        </section>
+
+        <section class="categories">
+            <h2 class="categories_title">Categorias</h2>
+            <ul class="categoriess__list">
+                <li class="categories__item">Shows</li>
+                <li class="categories__item">Teatro</li>
+                <li class="categories__item">Festivais</li>
+                <li class="categories__item">Cinema</li>
+                <li class="categories__item">Arte</li>
+                <li class="categories__item">Fotografia</li>
+                <li class="categories__item">Tecnologia</li>
+                <li class="categories__item">Design</li>
+            </ul>
+            <div class="categories__highlight">
+                <div class="highlights">
+                    <h3 class="highlights__title">Highlights:</h3>
+                    <div class="highlights__bar"></div>
+                    <div>
+                        <img src="./src/img/icone-seta-voltar.png">
+                        <img src="./src/img/icone-seta-avancar.png">
+                    </div>
+                </div>
+            </div>
+            <div class="categories__image"></div>
+        </section>
+
+        <section class="events">
+            <h2 class="events__title">Next Events</h2>
+            <ul class="events__list">
+                <li class="events__item">
+                    <img src="./src/img/evento-1.png" alt="candles with black background.">
+                    <h3>Light Festival</h3>
+                    <h4>14/08/22</h4>
+                    <h5>São Paulo | SP</h5>
+                    <button>See</button>
+                </li>
+                <li class="events__item">
+                    <img src="./src/img/evento-2.png" alt="People in the Party">
+                    <h3>Latino Party</h3>
+                    <h4>14/08/22</h4>
+                    <h5>São Paulo | SP</h5>
+                    <button>See</button>
+                </li>
+                <li class="events__item">
+                    <img src="./src/img/evento-3.png" alt="Movie theater">
+                    <h3>Cinema Festival</h3>
+                    <h4>14/08/22</h4>
+                    <h5>São Paulo | SP</h5>
+                    <button>See</button>
+                </li>
+                <li class="events__item">
+                    <img src="./src/img/evento-4.png" alt="Bike Racing">
+                    <h3>Running for Health</h3>
+                    <h4>14/08/22</h4>
+                    <h5>São Paulo | SP</h5>
+                    <button>See</button>
+                </li>
+                <li class="events__item">
+                    <img src="./src/img/evento-5.png" alt="Giant Pikachu">
+                    <h3>Anime Market</h3>
+                    <h4>14/08/22</h4>
+                    <h5>São Paulo | SP</h5>
+                    <button>See</button>
+                </li>
+                <li class="events__item">
+                    <img src="./src/img/evento-6.png" alt="Open concert">
+                    <h3>Multcolors Festival</h3>
+                    <h4>14/08/22</h4>
+                    <h5>São Paulo | SP</h5>
+                    <button>See</button>
+                </li>
+                <li class="events__item">
+                    <img src="./src/img/evento-7.png" alt="Ballon Festival">
+                    <h3>Ballon Day</h3>
+                    <h4>14/08/22</h4>
+                    <h5>São Paulo | SP</h5>
+                    <button>See</button>
+                </li>
+                <li class="events__item">
+                    <img src="./src/img/evento-8.png" alt="Movie Theater 3D">
+                    <h3>Thursday 3D</h3>
+                    <h4>14/08/22</h4>
+                    <h5>São Paulo | SP</h5>
+                    <button>See</button>
+                </li>
+                <li class="eventos__botao"><button>See more</button></li>
+            </ul>
+        </section>
+        <section class="agenda">
+            <h2 class="agenda__title">Coloque na sua agenda!</h2>
+            <ul class="agenda__list">
+                <li class="agenda__item">
+                    <img src="./src/img/agenda-1.png" alt="Movie Theater 3D">
+                    <div class="agenda__informations">
+                        <h3>August</h3>
+                        <h4>08 (friday)</h4>
+                        <h5>20:30</h5>
+                    </div>
+                    <div class="agenda__atraction">
+                        <h6>Thursday 3D</h6>
+                        <button>Let me know</button>
+                    </div>
+                </li>
+                <li class="agenda__item">
+                    <img src="./src/img/agenda-2.png" alt="Movie Theater 3D">
+                    <div class="agenda__informations">
+                        <h3>August</h3>
+                        <h4>08 (friday)</h4>
+                        <h5>20:30</h5>
+                    </div>
+                    <div class="agenda__atraction">
+                        <h6>Cinema Festival</h6>
+                        <button>Let me know</button>
+                    </div>
+                </li>
+                <li class="agenda__item">
+                    <img src="./src/img/agenda-3.png" alt="Ballon Festival">
+                    <div class="agenda__informations">
+                        <h3>August</h3>
+                        <h4>08 (sexta)</h4>
+                        <h5>20:30</h5>
+                    </div>
+                    <div class="agenda__atracao">
+                        <h6>Ballon Day</h6>
+                        <button>Let me know</button>
+                    </div>
+                </li>
+                <li class="agenda__item">
+                    <img src="./src/img/agenda-4.png" alt="Rock Singer">
+                    <div class="agenda__informations">
+                        <h3>August</h3>
+                        <h4>08 (sexta)</h4>
+                        <h5>20:30</h5>
+                    </div>
+                    <div class="agenda__atraction">
+                        <h6>Hard Rockers</h6>
+                        <button>Let me Know</button>
+                    </div>
+                </li>
+                <li class="agenda__item">
+                    <img src="./src/img/agenda-5.png" alt="Ballet dancers on the stage">
+                    <div class="agenda__informations">
+                        <h3>August</h3>
+                        <h4>08 (sexta)</h4>
+                        <h5>20:30</h5>
+                    </div>
+                    <div class="agenda__atraction">
+                        <h6>Local Ballet</h6>
+                        <button>Let me Know</button>
+                    </div>
+                </li>
+                <li class="agenda__item">
+                    <img src="./src/img/agenda-6.png" alt="Open Air concerrt">
+                    <div class="agenda__informations">
+                        <h3>August</h3>
+                        <h4>08 (sexta)</h4>
+                        <h5>20:30</h5>
+                    </div>
+                    <div class="agenda__atractions">
+                        <h6>Festival Multicolors</h6>
+                        <button>Let me know</button>
+                    </div>
+                </li>
+                <li class="agenda__button"><button>See more</button></li>
+            </ul>
+        </section>
+    </main>
+    <!-- main contents ends up here -->
+
+    <footer class="footer">
+        <ul class="footer__list">
+            <li>
+                <h3 class="footer__title">Find events</h3>
+            </li>
+            <li>This week</li>
+            <li>This weekend</li>
+            <li>This month</li>
+            <li>This Trimester</li>
+        </ul>
+        <ul class="footer__list">
+            <li>
+                <h3 class="footer__title">Cities</h3>
+            </li>
+            <li>São Paulo</li>
+            <li>Rio de Janeiro</li>
+            <li>Porto Alegre</li>
+            <li>Salvador</li>
+        </ul>
+        <ul class="footer__list">
+            <li>
+                <h3 class="footer__title">Categories</h3>
+            </li>
+            <li>Shows</li>
+            <li>Art</li>
+            <li>Theater</li>
+            <li>Fotograph</li>
+            <li>Festivails</li>
+            <li>Design</li>
+            <li>Cinema</li>
+            <li>Tecnology</li>
+        </ul>
+        <ul class="footer__list">
+            <li>
+                <h3 class="footer__title">Sobre nós</h3>
+            </li>
+            <li>Carries</li>
+            <li>History</li>
+            <li>Contact</li>
+            <li>Locations</li>
+        </ul>
+        <ul class="footer__list">
+            <li>
+                <h3 class="footer__title">Anounce your Event</h3>
+            </li>
+            <li>Music and Fest</li>
+            <li>Courses e workshops</li>
+            <li>Esport</li>
+            <li>Congress</li>
+            <li>Religious</li>
+            <li>Online</li>
+        </ul>
+        <div class="footer__logo">
+            <h4></h4>
+            <p>Developed by Alura.</p>
+        </div>
+    </footer>
+</body>
+</html> 
